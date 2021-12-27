@@ -3,6 +3,8 @@ name = "coco_utils"
 version = "0.0.1"
 description = "utility functions for data explorations and metrics calculation on coco data format"
 authors = ["Prakash Jay <prakashjyy@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/prakashjayy/coco_utils"
 
 [tool.poetry.dependencies]
 python = "^3.8"
