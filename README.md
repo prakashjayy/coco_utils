@@ -17,3 +17,25 @@ from coco_utils.plots import plot_coco_labels
 loc = "data/annotations/instances_val2017.json"
 plot_coco_labels(loc, "data/outputs/")
 ```
+
+
+## Summary of set up
+
+- Clone the repo and do poetry install. To install poetry on your system/server. 
+
+> How to run tests ?
+- TODO 
+
+> How to use ?
+- `poetry add coco_utils` or `pip install coco_utils`
+
+> Deployment instructions
+- `poetry build` & `poetry publish` 
+
+
+## Who do I talk to?
+
+> Repo owner or admin
+- Prakash Vanapalli
+
+> Other community or team contact.
