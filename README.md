@@ -21,7 +21,7 @@ plot_coco_labels(loc, "data/outputs/")
 
 ## Summary of set up
 
-- Clone the repo and do poetry install. To install poetry on your system/server. 
+- Clone the repo and do `poetry install`. To install poetry on your [system/server](https://github.com/prakashjayy/fullstack_dl/issues/17). 
 
 > How to run tests ?
 - TODO 
