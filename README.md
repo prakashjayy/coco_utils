@@ -9,3 +9,11 @@ A set of utility functions to process object detection (coco) datasets.
 from coco_utils.coco import COCO
 x = COCO("data/annotations/instances_val2017.json")
 ```
+
+- **`plot labels`** function is used to plot and save `labels_correlogram.jpg` and `labels.jpg` files. 
+
+```python
+from coco_utils.plots import plot_coco_labels
+loc = "data/annotations/instances_val2017.json"
+plot_coco_labels(loc, "data/outputs/")
+```
